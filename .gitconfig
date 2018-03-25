@@ -1,0 +1,36 @@
+[user]
+	name = Simon PERRIN
+	email = simon@soundcharts.com
+[diff]
+	tool = meld
+
+[difftool]
+	prompt = false
+
+[difftool "meld"]
+	cmd = meld "$LOCAL" "$REMOTE"
+
+[merge]
+	tool = meld
+
+[mergetool "meld"]
+	cmd = meld "$LOCAL" "$MERGED" "$REMOTE" --output "$MERGED"
+
+[diff]
+	tool = meld
+
+[difftool]
+	prompt = false
+
+[difftool "meld"]
+	cmd = meld "$LOCAL" "$REMOTE"
+
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	df = diff
+	sh = stash
+[pull]
+	rebase = true

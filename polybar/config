@@ -8,6 +8,7 @@ secondary = ${xrdb:secondary}
 underline = ${xrdb:active}
 
 [bar/default]
+monitor = ${env:MONITOR:}
 height = 20
 offset-y = 0
 top = true

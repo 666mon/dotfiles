@@ -1,0 +1,8 @@
+alias ll='ls -hal'
+alias my='mysql -h 127.0.0.1'
+alias dps='docker ps'
+alias dit='docker exec -it'
+alias dst='docker stop'
+alias ddb='bin/docker db'
+alias ddsb='bin/docker start --build'
+alias c='bin/console'
