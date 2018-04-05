@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# Git config
+rm ~/.gitconfig
+ln -s ~/.gitconfig ~/dotfiles/.gitconfig
+rm ~/.global-gitignore
+ln -s ~/.gitconfig ~/dotfiles/.gitconfig
+rm ~/git-meld
+ln -s ~/git-meld ~/dotfiles/git-meld
+
+# Xresources
+rm ~/.Xresources
+ln -s ~/.Xresources ~/dotfiles/.Xresources
+
+# i3
+rm -rf ~/.config/i3
+ln -s ~/.config/i3 ~/dotfiles/i3
+
+# Polybar
+rm -rf ~/.config/polybar
+ln -s ~/.config/polybar ~/dotfiles/polybar
+
+
