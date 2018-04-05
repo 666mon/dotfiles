@@ -60,10 +60,10 @@ bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+m move right
+# bindsym $mod+Shift+j move left
+# bindsym $mod+Shift+k move down
+# bindsym $mod+Shift+l move up
+# bindsym $mod+Shift+m move right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
@@ -159,6 +159,8 @@ bindsym $mod+r mode "resize"
 
 bindsym XF86MonBrightnessUp exec "~/Scripts/brightness.php up"
 bindsym XF86MonBrightnessDown exec "~/Scripts/brightness.php down"
+
+bindsym $mod+Shift+l exec "i3lock -c 000000 -i ~/Pictures/i3lock.png"
 
 bindsym $mod+a exec "~/dotfiles/reminder.sh"
 bindsym $mod+t exec "xpad"
