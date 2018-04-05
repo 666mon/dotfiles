@@ -3,6 +3,7 @@
 	email = simon@soundcharts.com
 [diff]
 	tool = meld
+	external = ~/git-meld
 
 [difftool]
 	prompt = false
@@ -34,3 +35,6 @@
 	sh = stash
 [pull]
 	rebase = true
+[core]
+	editor = vim
+	excludesfile = ~/.global-gitignore
