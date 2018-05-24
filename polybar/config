@@ -141,7 +141,7 @@ label-disconnected = 
 
 [module/wireless]
 type = internal/network
-interface = wlp2s0
+interface = wlp4s0
 interval = 1
 ping-interval = 3
 accumulate-stats = true
@@ -192,7 +192,7 @@ type = internal/battery
 full-at = 99
 ; Use the following command to list batteries and adapters:
 ; $ ls -1 /sys/class/power_supply/
-battery = BAT0
+battery = BAT1
 adapter = AC
 poll-interval = 5
 Additional formatting
