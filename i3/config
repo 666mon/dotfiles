@@ -124,6 +124,9 @@ bindsym $mod+Shift+agrave move container to workspace 10
 bindsym $alt+Ctrl+Left workspace prev
 bindsym $alt+Ctrl+Right workspace next
 
+bindsym $mod+Ctrl+Left move workspace to output left
+bindsym $mod+Ctrl+Right move workspace to output right
+
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
@@ -183,7 +186,7 @@ exec_always --no-startup-id ~/.screenlayout/default.sh
 exec_always --no-startup-id "killall polybar;~/.config/polybar/launch_polybar.sh"
 
 exec pulseaudio
-exec_always nm-applet
+exec_always --no-startup-id wicd-client
 exec_always blueman-applet
 exec "nitrogen --restore"
 exec_always --no-startup-id "killall volumeicon; volumeicon"
